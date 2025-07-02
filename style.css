@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.img-wrapper{
+    text-align: center;
+}
+.img-wrapper > img{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    background: linear-gradient(269.97deg, #66B6D4 26.84%, #354F6F 101.34%);
+}
+.menu-items{
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    align-items: center;
+    gap: 43px;
+}
+ul{
+    list-style-type: none;
+}
+.menu-items li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+#home-banner {
+    background: url(./assets/banner.jpg);
+    min-height: 483px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#home-banner div h1{
+    font-weight: 300;
+
+}
+
+#home-banner > div {
+    color: white;
+    min-height:483px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#home-banner > div button{
+    text-transform: uppercase;
+}
+#about{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 25px;
+    color:blue;
+    text-decoration: none;
+    display: grid;
+    place-content: center;
+    margin-bottom: 20px;
+
+}
+button{
+    width: 162px;
+    height: 41px;
+    margin: 0 auto;
+}
+.about-descp{
+    margin: 0 auto;
+    max-width: 995px;
+    min-height: 128px;
+}
+#conference{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 50px;
+}
+.confer-descp{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+
+}
+.confer-descp p{
+    margin-bottom: 20px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 30px;
+}
+.box1{
+
+    text-align: center;
+    padding: 20px 20px;
+    border-style: groove;
+    border-radius: 5px;
+    max-width: 250px;
+    min-height: 40px;
+}
+.box2{
+    text-align: center;
+    padding: 20px 20px;
+    border-style: groove;
+    border-radius: 5px;
+    max-width: 250px;
+    min-height: 40px;
+}
+.box3{
+    text-align: center;
+    padding: 20px 20px;
+    border-style: groove;
+    border-radius: 5px;
+    max-width: 250px;
+    min-height: 40px;
+}
+.box1 h5{
+    padding: 10px;
+    color: rgb(78, 78, 140);
+}
+.box1 p{
+    padding-bottom: 40px;
+    color: rgb(127, 127, 174);
+
+}
+.box2 h5{
+    padding: 10px;
+    color: rgb(78, 78, 140);   
+
+}
+.box2 p{
+    padding-bottom: 40px;
+    color: rgb(127, 127, 174);
+
+}
+.box3 h5{
+    padding: 10px;
+    color: rgb(78, 78, 140);
+
+}
+.box3 p{
+    padding-bottom: 40px;
+    color: rgb(127, 127, 174);
+
+}
+.box1 button{
+    background-color: rgb(51, 51, 116);
+    color: white;
+}
+.box2 button{
+    background-color: rgb(51, 51, 116);
+    color: white;
+}
+.box3 button{
+    background-color: rgb(51, 51, 116);
+    color: white;
+}
+#speaker{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 50px;
+}
+.speaker-descp{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.pictures{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+#planing{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 50px;
+}
+.plan-descp{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+
+}
+.plan-descp p{
+    margin-bottom: 20px;
+}
+.boxess{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 30px;
+}
+.box11{
+
+    text-align: center;
+    padding: 20px 20px;
+    border-style: groove;
+    border-radius: 5px;
+    max-width: 250px;
+    min-height: 40px;
+}
+.box22{
+    text-align: center;
+    padding: 20px 20px;
+    border-style: groove;
+    border-radius: 5px;
+    max-width: 250px;
+    min-height: 40px;
+}
+.box33{
+    text-align: center;
+    padding: 20px 20px;
+    border-style: groove;
+    border-radius: 5px;
+    max-width: 250px;
+    min-height: 40px;
+}
+.box11 h5{
+    padding: 10px;
+    color: rgb(78, 78, 140);
+}
+.box11 p{
+    padding-bottom: 40px;
+    color: rgb(127, 127, 174);
+
+}
+.box22 h5{
+    padding: 10px;
+    color: rgb(78, 78, 140);   
+
+}
+.box22 p{
+    padding-bottom: 40px;
+    color: rgb(127, 127, 174);
+
+}
+.box33 h5{
+    padding: 10px;
+    color: rgb(78, 78, 140);
+
+}
+.box33 p{
+    padding-bottom: 40px;
+    color: rgb(127, 127, 174);
+
+}
+.box11 button{
+    background-color: rgb(51, 51, 116);
+    color: white;
+}
+.box22 button{
+    background-color: rgb(51, 51, 116);
+    color: white;
+}
+.box33 button{
+    background-color: rgb(51, 51, 116);
+    color: white;
+}
+#newsletter{
+    min-height: 209px;
+}
+#newsletter p{
+    padding-left: 70px;
+}
+.email{
+    display: flex;
+    justify-content: flex-end;
+}
+.email input{
+    padding-right: 40px;
+    min-height: 100%;
+}
+.email button{
+    min-width:24px;
+    background-color: rgba(14,45,82,1);
+    cursor: pointer;
+    min-height: 100%;
+    margin: 0;
+}
+.icon{
+    max-width: 200.59px;
+}
+.iconstyle{
+    max-width: 25.66px;
+}
+
+    
